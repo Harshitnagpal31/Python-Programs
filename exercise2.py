@@ -3,12 +3,9 @@
 # 56 + 9 = 77
 # 56 / 6 = 4
 
-print("Enter the first value")
-num1 = float(input())
-print("Enter the operator")
-op = input()
-print("Enter the second value")
-num2 = float(input())
+num1 = float(input("Enter the first value : "))
+op = input("Enter the operator : ")
+num2 = float(input("Enter the second value : "))
 
 # Faulty Calculations
 if num1==45 and op=='*' and num2==3:
